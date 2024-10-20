@@ -1,47 +1,87 @@
 # CGM-FeatureExtraction-Clustering
 Code for analyzing Continuous Glucose Monitoring (CGM) data using day segmentation, feature extraction, and clustering methods like UMAP. This project focuses on identifying glycemic patterns to support personalized diabetes management for diabete patients
 
-Overview
+# Let's create the improved README content in markdown format and save it as a txt file.
 
-The study focuses on applying Uniform Manifold Approximation and Projection (UMAP) to CGM data, allowing for clustering analysis that distinguishes between T1D individuals on insulin and healthy controls (HC). By extracting glycemic features and applying dimensionality reduction, we explore the differences in glycemic profiles and propose a novel approach to personalized diabetes care.
+readme_content = """
+# **Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring Data**
 
-Key highlights of this project include:
+This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies advanced machine learning techniques, specifically Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management.
 
-Clustering glycemic profiles using UMAP.
+![Graphical Abstract Placeholder](path/to/your/graphical_abstract.png)
 
-Quantifying differences between T1D and HC using Silhouette Scores.
+---
 
-Providing an easily interpretable metric for evaluating diabetes management.
+## **Overview**
 
-Graphical Abstract
+This study applies **Uniform Manifold Approximation and Projection (UMAP)** to CGM data to perform clustering analysis, helping distinguish between individuals with T1D and healthy controls (HC). Through the extraction of glycemic features and dimensionality reduction, we explore the differences in glycemic profiles and propose new insights for personalized diabetes care.
 
-(Include graphical abstract here)
+### **Key Highlights**
+- **UMAP Clustering**: Utilizes UMAP for effective visualization and separation of glycemic profiles.
+- **Silhouette Score Analysis**: Quantifies the differences between T1D and HC clusters using Silhouette Scores.
+- **Personalized Care**: Provides interpretable metrics to support more personalized diabetes management.
 
-How to Cite
+---
 
-If you use any part of this repository in your research, please cite our manuscript:
+## **How to Cite**
 
-J. Song, J. McNeany, Y. Wang, T. Daley, A. Stecenko, R. Kamaleswaran, "Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management," Computers in Biology and Medicine, vol. 183, 2024, pp. 109255. doi:10.1016/j.compbiomed.2024.109255
+If you find this repository helpful in your research, please cite the manuscript as follows:
 
-Installation
+> **Song J., McNeany J., Wang Y., Daley T., Stecenko A., Kamaleswaran R.**, *"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management,"* **Computers in Biology and Medicine**, vol. 183, 2024, pp. 109255.  
+> [doi:10.1016/j.compbiomed.2024.109255](https://doi.org/10.1016/j.compbiomed.2024.109255)
 
-To get started, clone the repository and install the required dependencies:
+---
 
-Usage
+## **Installation**
 
-This repository includes the following scripts:
+Follow these steps to get started:
 
-CGM_TAML_PA180_2.py: Python script for data preprocessing and temporal segmentation of CGM data. It includes functions for cleaning CGM datasets, handling missing values, and dividing the data into daily segments to facilitate further analysis.
+1. Clone the repository:
+    ```bash
+    $ git clone https://github.com/username/cgm_clustering.git
+    $ cd cgm_clustering
+    ```
 
-cgmquantify_stuart.py: Script for feature extraction and analysis of glycemic variability.
+2. Install the required dependencies:
+    ```bash
+    $ pip install -r requirements.txt
+    ```
 
-Sample Training and Validation Dataset Creation.ipynb: Jupyter notebook demonstrating the creation of training and validation datasets, as well as UMAP-based clustering.
+---
 
-Results
+## **Usage**
 
-The results indicate that UMAP effectively distinguishes between glycemic profiles of individuals with T1D and healthy controls. The clustering results suggest potential use for personalized care by understanding and interpreting day-by-day glycemic control.
+The repository includes the following scripts for processing and analyzing CGM data:
 
-License
+- **`CGM_TAML_PA180_2.py`**: Handles data preprocessing, cleaning, and temporal segmentation of CGM data.
+- **`cgmquantify_stuart.py`**: Extracts glycemic variability features and computes metrics for analysis.
+- **`Sample Training and Validation Dataset Creation.ipynb`**: Demonstrates the creation of datasets for training and validation, alongside UMAP-based clustering.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### **To Run the Code**
+Simply execute any of the Python scripts or open the Jupyter notebook in your favorite environment for experimentation.
+
+---
+
+## **Results**
+
+Our study shows that UMAP successfully differentiates the glycemic profiles of individuals with T1D from healthy controls. The clustering results are promising for further applications in personalized diabetes management by providing day-to-day insights into glycemic control.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **Contributing**
+
+We welcome contributions! Please submit a pull request if you'd like to improve the code, add features, or fix bugs.
+
+---
+
+### **Contact**
+
+For questions, suggestions, or feedback, feel free to reach out to **[Your Name]** via email: [youremail@example.com](mailto:youremail@example.com).
+"""
 
