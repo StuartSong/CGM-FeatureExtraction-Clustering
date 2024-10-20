@@ -1,6 +1,6 @@
 # **Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring Data**
 
-This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management. The repository includes code for daily segmentation, glycemic feature extraction, UMAP projection, and silhouette score calculation.
+This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management. The repository includes code for daily segmentation, glycemic feature extraction, UMAP projection, and silhouette score calculation. 
 
 ![Graphical Abstract](Graphical_Abstract.jpg)
 
