@@ -14,6 +14,16 @@ This repository contains the code and data for the study titled **"Riemannian Ma
 
 ---
 
+## **Public CGM Datasets**
+
+If you're looking for publicly available Continuous Glucose Monitoring (CGM) datasets, you can find a curated list on the following GitHub repository:
+
+[Awesome-CGM Wiki - Public Datasets](https://github.com/IrinaStatsLab/Awesome-CGM/wiki)
+
+This resource offers a wide range of publicly accessible CGM datasets that can be used for research and analysis.
+
+---
+
 ## **Installation**
 
 Follow these steps to get started:
@@ -31,13 +41,15 @@ Follow these steps to get started:
 
 ---
 
+all_subjects_table = all_subjects_table.rename(columns={"id": "ID", "gl": "Glucose", "time": "Time"})
+
 ## **Usage**
 
 The repository includes the following scripts for processing and analyzing CGM data:
 
-- **`CGM_TAML_PA180_2.py`**: Handles data preprocessing, cleaning, and temporal segmentation of CGM data.
+- **`CGM_TAML.py`**: Handles data preprocessing, cleaning, and temporal segmentation of CGM data.
 - **`cgmquantify_stuart.py`**: Extracts glycemic variability features and computes metrics for analysis.
-- **`Sample Training and Validation Dataset Creation.ipynb`**: Demonstrates the creation of datasets for training and validation, alongside UMAP-based clustering.
+- **`Sample Dataset Creation.ipynb`**: Demonstrates the creation of datasets for training and validation, alongside UMAP-based clustering.
 
 ### **To Run the Code**
 Simply execute any of the Python scripts or open the Jupyter notebook in your favorite environment for experimentation.
