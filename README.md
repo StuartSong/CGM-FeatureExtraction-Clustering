@@ -41,7 +41,7 @@ Follow these steps to get started:
 
 ---
 
-# **Usage**
+## **Usage**
 **Before You Start**
 
 Please ensure that your CSV data is formatted with the following three columns before running the scripts:
