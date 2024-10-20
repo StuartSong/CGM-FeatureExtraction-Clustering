@@ -7,7 +7,7 @@ This repository contains the code and data for the study titled **"Riemannian Ma
 ---
 
 ### **Key Highlights**
-- **Glycemic Feature Extraction**: Includes an easy-to-use function to compute 29 key glycemic features from CGM data.
+- **Glycemic Feature Extraction**: Includes an easy-to-use function to compute 27 key glycemic features from CGM data.
 - **UMAP Clustering**: Utilizes UMAP for effective visualization and separation of glycemic profiles.
 - **Silhouette Score Analysis**: Quantifies the differences between T1D and HC clusters using Silhouette Scores.
 - **Personalized Care**: Provides interpretable metrics to support more personalized diabetes management.
