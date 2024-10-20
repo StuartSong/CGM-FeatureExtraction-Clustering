@@ -6,6 +6,18 @@ This repository contains the code and data for the study titled **"Riemannian Ma
 
 ---
 
+## **Table of Contents**
+1. [Key Highlights](#key-highlights)
+2. [Public CGM Datasets](#public-cgm-datasets)
+3. [Installation](#installation)
+4. [Usage](#usage)
+    - [Before You Start](#before-you-start)
+    - [To Run the Code](#to-run-the-code)
+5. [How to Cite](#how-to-cite)
+6. [Contributing](#contributing)
+
+---
+
 ### **Key Highlights**
 - **Glycemic Feature Extraction**: Includes an easy-to-use function to compute 27 key glycemic features from CGM data.
 - **UMAP Clustering**: Utilizes UMAP for effective visualization and separation of glycemic profiles.
@@ -42,7 +54,7 @@ Follow these steps to get started:
 ---
 
 ## **Usage**
-**Before You Start**
+###**Before You Start**
 
 Please ensure that your CSV data is formatted with the following three columns before running the scripts:
 
