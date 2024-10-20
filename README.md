@@ -41,15 +41,25 @@ Follow these steps to get started:
 
 ---
 
-all_subjects_table = all_subjects_table.rename(columns={"id": "ID", "gl": "Glucose", "time": "Time"})
+# **Usage**
+**Before You Start**
 
-## **Usage**
+Please ensure that your CSV data is formatted with the following three columns before running the scripts:
+
+- **id**: Unique identifier for each individual or session.
+- **gl**: Glucose level.
+- **time**: Timestamp of the glucose measurement.
+
+The data should be **sorted by time** and **grouped by id** for accurate processing and analysis.
 
 The repository includes the following scripts for processing and analyzing CGM data:
 
 - **`CGM_TAML.py`**: Handles data preprocessing, cleaning, and temporal segmentation of CGM data.
 - **`cgmquantify_stuart.py`**: Extracts glycemic variability features and computes metrics for analysis.
-- **`Sample Dataset Creation.ipynb`**: Demonstrates the creation of datasets for training and validation, alongside UMAP-based clustering.
+- **`calculate_scores.py`**: Calculates Silhouette Score and Dunn Index
+- **`Sample Dataset Creation.ipynb`**: Demonstrates the creation of datasets for training and validation
+- **`UMAP plot and SS demo.ipynb`**: Demonstrates the projection of UMAP and the calculation of point-wise Silhouette Score
+
 
 ### **To Run the Code**
 Simply execute any of the Python scripts or open the Jupyter notebook in your favorite environment for experimentation.
