@@ -1,28 +1,16 @@
 # **Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring Data**
 
-This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies advanced machine learning techniques, specifically Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management.
+This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management. The repository includes code for daily segmentation, glycemic feature extraction, UMAP projection, and silhouette score calculation.
 
-!(Graphical_Abstract.jpg)
+![Graphical Abstract](Graphical_Abstract.jpg)
 
 ---
 
-## **Overview**
-
-This study applies **Uniform Manifold Approximation and Projection (UMAP)** to CGM data to perform clustering analysis, helping distinguish between individuals with T1D and healthy controls (HC). Through the extraction of glycemic features and dimensionality reduction, we explore the differences in glycemic profiles and propose new insights for personalized diabetes care.
-
 ### **Key Highlights**
+- **Glycemic Feature Extraction**: Includes an easy-to-use function to compute 29 key glycemic features from CGM data.
 - **UMAP Clustering**: Utilizes UMAP for effective visualization and separation of glycemic profiles.
 - **Silhouette Score Analysis**: Quantifies the differences between T1D and HC clusters using Silhouette Scores.
 - **Personalized Care**: Provides interpretable metrics to support more personalized diabetes management.
-
----
-
-## **How to Cite**
-
-If you find this repository helpful in your research, please cite the manuscript as follows:
-
-> **Song J., McNeany J., Wang Y., Daley T., Stecenko A., Kamaleswaran R.**, *"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management,"* **Computers in Biology and Medicine**, vol. 183, 2024, pp. 109255.  
-> [doi:10.1016/j.compbiomed.2024.109255](https://doi.org/10.1016/j.compbiomed.2024.109255)
 
 ---
 
@@ -56,15 +44,12 @@ Simply execute any of the Python scripts or open the Jupyter notebook in your fa
 
 ---
 
-## **Results**
+## **How to Cite**
 
-Our study shows that UMAP successfully differentiates the glycemic profiles of individuals with T1D from healthy controls. The clustering results are promising for further applications in personalized diabetes management by providing day-to-day insights into glycemic control.
+If you find this repository helpful in your research, please cite the manuscript as follows:
 
----
-
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+> **Song J., McNeany J., Wang Y., Daley T., Stecenko A., Kamaleswaran R.**, *"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management,"* **Computers in Biology and Medicine**, vol. 183, 2024, pp. 109255.  
+> [doi:10.1016/j.compbiomed.2024.109255](https://doi.org/10.1016/j.compbiomed.2024.109255)
 
 ---
 
@@ -76,6 +61,6 @@ We welcome contributions! Please submit a pull request if you'd like to improve 
 
 ### **Contact**
 
-For questions, suggestions, or feedback, feel free to reach out to **[Your Name]** via email: [youremail@example.com](mailto:youremail@example.com).
+For questions, suggestions, or feedback, feel free to reach out to Jiafeng via email: [sjfsjf2010@gmail.com](mailto:sjfsjf2010@gmail.com).
 """
 
