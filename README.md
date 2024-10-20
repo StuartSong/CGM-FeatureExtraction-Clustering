@@ -1,9 +1,6 @@
 # CGM-FeatureExtraction-Clustering
 Code for analyzing Continuous Glucose Monitoring (CGM) data using day segmentation, feature extraction, and clustering methods like UMAP. This project focuses on identifying glycemic patterns to support personalized diabetes management for diabete patients
 
-# Let's create the improved README content in markdown format and save it as a txt file.
-
-readme_content = """
 # **Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring Data**
 
 This repository contains the code and data for the study titled **"Riemannian Manifold-based Geometric Clustering of Continuous Glucose Monitoring to Improve Personalized Diabetes Management"**. The project applies advanced machine learning techniques, specifically Riemannian manifold-based geometric clustering, to better understand glycemic control in individuals with Type 1 Diabetes (T1D) and healthy controls using Continuous Glucose Monitoring (CGM) data. The approach aims to enhance personalized diabetes management.
