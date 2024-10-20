@@ -62,7 +62,7 @@ The repository includes the following scripts for processing and analyzing CGM d
 
 
 ### **To Run the Code**
-Simply execute any of the Python scripts or open the Jupyter notebook in your favorite environment for experimentation.
+Simply execute any of the Python scripts or open the Jupyter notebook in your environment for experimentation.
 
 ---
 
@@ -77,12 +77,9 @@ If you find this repository helpful in your research, please cite the manuscript
 
 ## **Contributing**
 
-We welcome contributions! Please submit a pull request if you'd like to improve the code, add features, or fix bugs.
+We welcome contributions! Please submit a pull request if you'd like to improve the code, add features, or fix bugs. For questions, suggestions, or feedback, feel free to reach out to Jiafeng via email: [sjfsjf2010@gmail.com](mailto:sjfsjf2010@gmail.com).
 
 ---
 
-### **Contact**
 
-For questions, suggestions, or feedback, feel free to reach out to Jiafeng via email: [sjfsjf2010@gmail.com](mailto:sjfsjf2010@gmail.com).
-"""
 
